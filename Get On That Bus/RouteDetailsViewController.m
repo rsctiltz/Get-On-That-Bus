@@ -7,24 +7,22 @@
 //
 
 #import "RouteDetailsViewController.h"
+#import <CoreLocation/CoreLocation.h>
+#import <AddressBookUI/AddressBookUI.h>
 
 
 @interface RouteDetailsViewController ()
 {
+    __weak IBOutlet UILabel *labelShowingTitle;
+    __weak IBOutlet UILabel *labelShowingAddress;
 
+    __weak IBOutlet UILabel *labelShowingBusRoutes;
 
-    IBOutlet UILabel *labelShowingTitle;
+    __weak IBOutlet UILabel *labelShowingIntermodalTransfers;
 
-    IBOutlet UILabel *labelShowingAddress;
+    __weak IBOutlet UILabel *labelTitleIntermodalTransfers;
 
-
-    IBOutlet UILabel *labelShowingBusRoutes;
-
-
-    IBOutlet UILabel *labelShowingIntermodalTransfers;
-
-    IBOutlet UILabel *labelTitleIntermodalTransfers;
-}
+    }
 
 @end
 
@@ -74,5 +72,4 @@
     
     
 }
-
 @end

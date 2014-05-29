@@ -55,10 +55,10 @@
 
             NewPointAnnotation *newAnnotation = [NewPointAnnotation new];
 
-            //           MKPointAnnotation* annotation = [MKPointAnnotation new];
+
             newAnnotation.title = name;
             newAnnotation.subtitle = dictionary[@"routes"];
-            //            annotationView.canShowCallout = YES;
+
             newAnnotation.coordinate = CLLocationCoordinate2DMake(latitude, longitude);
             [myMapView addAnnotation:newAnnotation];
             NSString *mine = dictionary[@"inter_modal"];
@@ -82,7 +82,7 @@
 - (void)mapView:(MKMapView *)mapView annotationView:(NewAnnotationView*)view calloutAccessoryControlTapped:(UIControl *)control
 {
 
-    RouteDetailsViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"FooBar"];
+    RouteDetailsViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"Bussuck"];
     vc. title = view.annotation.title;
     vc.busRoutes = view.annotation.subtitle;
     vc.location = view.annotation.coordinate;

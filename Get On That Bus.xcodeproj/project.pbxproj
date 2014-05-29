@@ -146,8 +146,8 @@
 			isa = PBXGroup;
 			children = (
 				D0F41B9C19369D7B00DD0FB6 /* Get On That Bus-Info.plist */,
-				D0F41B9D19369D7B00DD0FB6 /* InfoPlist.strings */,
 				D0F41BA019369D7B00DD0FB6 /* main.m */,
+				D0F41B9D19369D7B00DD0FB6 /* InfoPlist.strings */,
 				D0F41BA219369D7B00DD0FB6 /* Get On That Bus-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -486,6 +486,7 @@
 				D0F41BC519369D7C00DD0FB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0F41BC619369D7C00DD0FB6 /* Build configuration list for PBXNativeTarget "Get On That BusTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +495,7 @@
 				D0F41BC819369D7C00DD0FB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

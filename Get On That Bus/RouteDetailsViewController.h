@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-#import <MapKit/MapKit.h>
+#import <CoreLocation/CoreLocation.h>
+
 
 @interface RouteDetailsViewController : ViewController
 

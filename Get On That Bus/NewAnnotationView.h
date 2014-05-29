@@ -13,5 +13,4 @@
 
 @property NewPointAnnotation *annotation;
 
-
 @end

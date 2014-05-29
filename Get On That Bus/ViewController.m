@@ -79,6 +79,14 @@
 
 }
 
+//- (void)mapView:(MKMapView *)mapView didDeselectAnnotationView:(MKAnnotationView *)view
+//{
+  //  NewPointAnnotation *annotation = view.annotation;
+
+    //[self performSegueWithIdentifier:@"DetailSegue" sender:selectedDictionary];
+    
+//}
+
 - (void)mapView:(MKMapView *)mapView annotationView:(NewAnnotationView*)view calloutAccessoryControlTapped:(UIControl *)control
 {
 
